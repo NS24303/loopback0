@@ -39,7 +39,7 @@ params:
   tocopen: false
 
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "Hello"
     Content: Welcome to loopback0 — a personal site built with Hugo and the PaperMod theme.
 
   socialIcons:
