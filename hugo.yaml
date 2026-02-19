@@ -1,0 +1,78 @@
+baseURL: "https://ns24303.github.io/loopback0/"
+languageCode: en-us
+title: loopback0
+theme: PaperMod
+
+pagination:
+  pagerSize: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: loopback0
+  description: "A personal website built with Hugo and PaperMod."
+  author: NS24303
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to loopback0 — a personal site built with Hugo and the PaperMod theme.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/NS24303"
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  editPost:
+    URL: "https://github.com/NS24303/loopback0/edit/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
